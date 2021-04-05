@@ -1,0 +1,259 @@
+ <html>
+ <head>
+   <title>Runo's portfolio</title>
+   <link
+  rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+  integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+  crossorigin="anonymous"/>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(to right, #076585, #fff); 
+}
+
+img {
+  max-width: 25%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 0;
+  border-radius: 50%;
+}
+
+p {
+  padding-top: 50px;
+  font-size: 20px;
+  
+}
+ul { 
+  list-style: none;
+}
+
+.navlist {
+  display: flex;
+  padding-top: 30px;
+}
+
+#navbar a {
+  display: flex;
+  width: 10vw;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px;
+  color: black;
+}
+#navbar li :hover {
+  text-decoration: underline;
+}
+#navbar {
+  display: flex; 
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(to right, #076585, #fff);
+  list-style: none;
+}
+
+#welcome-section {
+  padding-top: 125px;
+  margin-bottom: 50px;
+  height: 100vh;
+}
+
+#projects {
+  height: 100vh;
+}
+
+.projectsss {
+   padding-top:25px;
+}
+
+.profile-link {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.link {
+  text-decoration: none;
+  padding-right: 80px;
+   color: black;
+}
+
+h2 {
+  font-family: Monospace;
+  font-size: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+
+#tribute {
+  background-color: gray;
+  border: solid white 2px;
+  border-radius: 25%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 30px;
+  font-size: 18px;  
+}
+ #tribute :hover {
+  font-size: 20px;
+}
+
+#surveyform {
+  background-color: gray;
+  border: solid white 2px;
+  border-radius: 25%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 30px;
+  font-size: 18px;  
+}
+#surveyform :hover {
+  font-size: 20px;
+}
+
+#landingpage {
+  background-color: gray;
+  border: solid white 2px;
+  border-radius: 25%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 30px;
+  font-size: 18px;  
+}
+#landingpage :hover {
+  font-size: 20px;
+}
+
+#technicaldocumentation {
+  background-color: gray;
+  border: solid white 2px;
+  border-radius: 25%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 30px;
+  font-size: 18px;  
+}
+#technicaldocumentation :hover {
+  font-size: 20px;
+}
+
+#projects a {
+   text-decoration: none;
+   color: black;
+   font-family: monospace;
+}
+
+@media (max-width: 500px) {
+  .navlist {
+  display: flex;
+  padding-top: 10px;
+  padding-right: 30px;
+}
+  
+  .navlist li {
+    padding-right: 35px;
+  }
+  
+  img {
+    max-width: 40%;
+    height: auto;
+  }
+  #welcome-section {
+  padding-top: 200px;
+  height: 100vh;
+  }
+  
+  #projectsss {
+    margin-top: auto;
+  }
+  
+  .link {
+    padding-right: 40px;
+    font: 12px;
+  }
+  h2 {
+  font-size: 20px;
+  }
+}
+  </style>
+ </head>
+  
+  <body>
+    <div>
+      <nav id="navbar" class="nav">
+        <ul class="navlist">
+          <li>
+            <a href="#welcome-section">About</a>
+          </li>
+          
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul> 
+      </nav>
+      
+     <section id="welcome-section">
+     <h1>Hello there, I am Runo Otebele</h1>
+      <p>a Web Developer from Nigeria.</p>
+       <img src="https://assets.codepen.io/5817518/internal/avatars/users/default.png?fit=crop&format=auto&height=512&version=1614384527&width=512" alt="Runo_Otebele"> 
+    <p><em>I build websites that delight and inform, and I am ready to build that beautiful website that you need for your Company or business or a simple personal portfolio.</em></p>
+     </section>
+    
+      <section id="projects">
+        <h2>These are some of my projects</h2>
+       <div id="projectsss"> 
+      <div id="tribute"> 
+        <a href="https://codepen.io/Otebs/pen/VwmQVdz" target="_blank" class="project-tile">A tribute page</a></div>
+        
+     <div id="surveyform"> 
+       <a href="https://codepen.io/Otebs/pen/jOVzNVw" target="_blank" class="project-tile">A survey form</a></div>
+        
+      <div id="landingpage">
+        <a href="https://codepen.io/Otebs/pen/jOyOpmO" target="_blank" class="project-tile">A product landing page</a></div>
+      
+   <div id="technicaldocumentation">
+        <a href="https://codepen.io/Otebs/pen/wvgGmby" target="_blank" class="project-tile">A technical documentation page</a></div>
+       </div>
+      </section>
+      
+     <section>
+       <h2>Let us work together</h2>
+       
+    <div id="contact" class="profile-link">
+      <a   href="https://github.com/Otebs" target="_blank" class="link"><i class="fab fa-github"></i> GitHub</a>
+       
+    <a href="https://twitter.com/i_Runo" target="_blank" class="link"><i class="fab fa-twitter"></i> Twitter</a>
+       
+    <a href="mailto:otebsruno@gmail.com.com" class="link"><i class="fas fa-at"></i> Send a mail</a>
+       
+    <a href="tel:+2348104885898" class="link"><i class="fas fa-mobile-alt"></i> Call me</a></div> 
+     </section>
+    
+      
+    </div>
+  </body>
+</html>
